@@ -7,21 +7,21 @@
    
   }
 
-.sticky {
+  .sticky {
     z-index: 3;
     position: sticky;
     width: 100vw;
     height: 5em;
     top: 0;
-  }
-  
-  .sticky nav {
-    margin-top: 30px;
-    margin-left: 44%;
+}
+
+.sticky nav {
+   
+    
     list-style-type: none;
-  }
-  
-  .sticky nav li{
+}
+
+.sticky nav li{
     font-size: 15px;
     color: #313131;
     padding: 24px 18px;
@@ -30,29 +30,43 @@
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     list-style: none;
-  }
+ }
 
-  .sticky nav li:hover {
-    color: red;         
-  }
+.sticky nav li a:hover {
+    color: red;
+             
+}
 
+.My_Logo{
+  width: 120px;
+  height: auto;
+  margin-left: 10%;
   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
 .search-btn {
     background: transparent;
     border: none;
     font-size: 50px;
     color: #313131;
     
-  }
-  
-  .nav-switch-btn {
+}
+
+.nav-switch-btn {
     background: transparent;
     border: none;
     font-size: 50px;
     color: #313131;
-    margin-left: 260px;
-    font-family: 'Poppins', sans-serif;
-  }
+
+    margin-left: 10%;
+    
+}
 
   .title{
     font-size: 36px;
@@ -117,7 +131,7 @@ main{
     overflow: hidden;
     display: flex;
     margin: 20px 10px;
-    width: 300px;
+    width: 330px;
     /* height: 200px; */
     flex-direction: column;
 
