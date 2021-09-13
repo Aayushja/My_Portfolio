@@ -158,3 +158,30 @@ main{
 }
 
 
+.image {
+  position: relative;
+
+}
+
+.overlay-left-slide {
+  position: absolute;     
+  opacity:0;
+  top: 0;
+ right: 100%;
+  left: 0;
+  width: 0;
+height: 46%;
+  overflow: hidden;
+  transition: .5s ease;
+  background-color: red;
+}
+
+
+.image:hover .overlay-left-slide
+{
+  
+  width: 100%;
+  opacity:0.5;
+}
+
+

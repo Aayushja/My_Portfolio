@@ -109,8 +109,24 @@ font-family: 'Poppins', sans-serif;
     border-style: solid;
     border-width: 1px;
     border-color: #313131;
+
+    position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+ 
+
   }
 
+  .box1:hover {
+    top: -10px;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  
+
+  
   
   
   .box2{
@@ -123,7 +139,19 @@ font-family: 'Poppins', sans-serif;
     border-width: 1px;
     border-color: #313131;
     border-style: solid;
+
+
+    position: relative;
+  top: 0;
+  transition: top ease 0.5s;
   }
+
+  .box2:hover {
+    top: -10px;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
   
   .box3{
     display: block;
@@ -135,7 +163,21 @@ font-family: 'Poppins', sans-serif;
     border-width: 1px;
     border-color:#313131;
     border-style: solid;
+
+
+    position: relative;
+  top: 0;
+  transition: top ease 0.5s;
   }
+
+
+  .box3:hover {
+    top: -10px;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
 
   li{
     list-style: none;
